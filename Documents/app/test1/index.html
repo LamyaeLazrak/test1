@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestion RH</title>
+</head>
+<body>
+    <header>
+        <h1>Gestion des Ressources Humaines</h1>
+    </header>
+    <section id="employee-list">
+        <h2>Liste des Employés</h2>
+        <ul id="employees">
+            <!-- Les employés seront ajoutés ici par le script JavaScript -->
+        </ul>
+    </section>
+    <div>
+        <button id="btn-promotion">Promotion</button>
+        <button id="btn-departement">Changement de Département</button>
+        <button id="btn-acquisition-competences">Acquisition de Compétences</button>
+        <button id="btn-duree-service">Durée de Service</button>
+        <!-- Ajoutez d'autres boutons pour les critères restants -->
+    </div>
+    <input type="file" accept=".xlsx,.xls" id="input-excel" />
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.17.5/dist/xlsx.full.min.js"></script>
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

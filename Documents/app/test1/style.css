@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #2980b9;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: #3498db;
+}
+
+#employee-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    border: 1px solid #3498db;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#input-excel {
+    display: block;
+    margin: 20px auto;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
